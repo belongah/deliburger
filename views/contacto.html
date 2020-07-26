@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="En Deliburger queremos saber más de vos. Podés escribirnos o compartirnos tu CV si querés sumarte al equipo.">
+    <meta name="keywords" content="Deliburger, hamburguesa, ligero, sano, sabroso, fitness, dieta, empleo, contacto">
+    <link rel="icon" href="../img/DB-Logo.png" type="image/png"/>
+    <title>Deliburger: Contactanos</title>
+     <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/950aaf266d.js" crossorigin="anonymous"></script>    
+  </head>
+  <body>
+    <header>
+      <div class="topbar">
+        <div class="header_logo">
+          <img class="burgerID" src="../img/DB-Logo.png" alt="Logo de Deliburger">
+        </div>
+        <div class="header_title">
+          <h1>Deliburger</h1>
+          <p class="subtitle">Siempre sano y saludable</p>
+        </div>
+        <div class="header_menu">
+          <a href="#" class="but-menu"><span class="fas fa-bars icon"></span></a>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./menu.html">Menú</a></li>
+          <li><a href="./nosotros.html">Nosotros</a></li>
+          <li><a href="./locales.html">Locales</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>  
+    </header>
+	<div class="intro">
+		<h3>Acá, vos tenés la última palabra.</h3>
+	</div>	
+	<section id="forms">
+		<div class="message">
+		<form method="post">
+			<label for="name">
+				<p class="datos">Nombre</h5>
+				<input type="text" name="Nombre" id="name" placeholder="Nombre y Apellido" minlength="5" required>
+			</label>
+			<label for="email">
+				<p class="datos">E-mail</h5>
+				<input type="email" name="Email" id="email" placeholder="nombre@email.com" required>
+			</label>
+			<label for="number">
+				<p class="datos">Teléfono</h5>
+				<input type="tel" name="Teléfono" id="tel" placeholder="(Código de área) Número" required>
+			</label>
+		</div>
+		<div class="message">
+			<p class="datos">Mensaje</h5>
+				<textarea name="Mensaje" minlength="10" required></textarea>
+		</div>
+		<div class="sending">
+			<input type="submit" onclick='alert("¡Gracias por contactarnos!")' value="Enviar"/>
+		</div>
+		</form>
+	</section>
+	<div class="intro">
+		<h3>¿Querés sumarte a nuestro equipo?</h3>
+	</div>	
+	<section class="meals wiped">
+		<article class="product wiped">
+			<img class="item" src="../img/contact01.jpg" alt="">
+		</article>
+		<article class="product wiped">
+			<img class="item" src="../img/contact02.jpg" alt="">
+		</article>
+		<article class="product wiped">
+			<img class="item" src="../img/contact03.jpg" alt="">
+		</article>		
+	</section>
+	<section class="selection">
+		<span class="rrhh"><a href="http://www.linkedin.com"><i class="fab fa-linkedin fa-5x rrss"></i></a></span>
+		<p class="parrafo invite">Lorem ipsum dolor sit amet. Nunc volutpat ipsum eros, sit amet fringilla arcu tristique id. Phasellus lobortis vehicula pulvinar. Nulla facilisi. Maecenas hendrerit vestibulum lacinia. Ut ut ante tempus, malesuada nisl egestas, blandit nisi.</p>
+	</section>
+	<footer>
+      <div id="foot">
+        <span>Copyright © 2020 <b>Deli Burger S.R.L.</b></span>
+        <span><a href="http://www.facebook.com"><i class="fab fa-facebook-square fa-lg rrss"></i></a></span>
+        <span><a href="http://www.twitter.com"><i class="fab fa-twitter-square fa-lg rrss"></i></a></span>
+        <span><a href="http://www.instagram.com"><i class="fab fa-instagram-square fa-lg rrss"></i></a></span>
+      </div>
+    </footer> 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
+    <script src="../assets/js/scriptMenu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
